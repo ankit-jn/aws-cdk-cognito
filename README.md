@@ -91,6 +91,8 @@ cdk deploy --profile <AWS Credential Profile Name>
 
 Change the following values in example/login.py and run the program:
 
+- PROFILE_NAME: Your AWS profile name
+- COGNITO_IDP_REGION: AWS Region Code
 - USER_POOL_ID: Cognito User Pool ID
 - CLIENT_ID: Client ID
 - CLIENT_SECRET: Client Secret
