@@ -77,13 +77,13 @@ python -m pip install -r requirements-poetry.txt --target .\layer\python\ --upgr
 #### Synthesize the stack
 
 ```
-cdk synth --profile <AWS Crdential Profile Name>
+cdk synth --profile <AWS Credential Profile Name>
 ```
 
 #### Stack deployment
 
 ```
-cdk deploy --profile <AWS Crdential Profile Name>
+cdk deploy --profile <AWS Credential Profile Name>
 ```
 
 
