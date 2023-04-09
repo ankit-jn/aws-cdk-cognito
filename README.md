@@ -1,4 +1,4 @@
-## ARJ-Stack: Cognito User pool Setup using AWS CDK
+## ARJ-Stack: Cognito User pool setup using AWS CDK
 
 This repository is a walkthrough (along with code) on end-to-end setup of how to provision Cognito User Pool along with User Pool Client and with Lambda Triggers.
 
