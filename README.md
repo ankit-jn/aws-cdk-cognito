@@ -16,7 +16,7 @@ There are few steps that we need to follow to setup/configure the environment on
 
 ### How to setup the project (if doing it from start rather cloning it)
 
-- Create a directory named `aws-kms-e-signature`
+- Create a directory named `aws-cdk-cognito`
 - Run the following commands withint the directory:
 
 ```
