@@ -13,9 +13,6 @@ from infra.services.cognito_service import CognitoService
 
 class InfraStack(Stack):
 
-    DEFAULT_LAMBDA_TIMEOUT = Duration.seconds(15)
-    DEFAULT_LAMBDA_MEMORY_USAGE = 512
-
     def __init__(self, scope: Construct, construct_id: str, configs: DeploymentConfig, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 

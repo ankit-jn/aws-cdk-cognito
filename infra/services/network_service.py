@@ -1,16 +1,11 @@
 from aws_cdk import (
     aws_ec2,
-    Duration,
-    Stack,
 )
 from constructs import Construct
-from typing import Dict, List, Tuple
+from typing import Dict
 from configs.deployment_config import DeploymentConfig
 
 class NetworkService(Construct):
-
-    DEFAULT_LAMBDA_TIMEOUT = Duration.seconds(15)
-    DEFAULT_LAMBDA_MEMORY_USAGE = 512
 
     def __init__(self, scope: Construct, configs: DeploymentConfig, **kwargs) -> None:
         super().__init__(scope, f"{configs.deployment_name}-network")

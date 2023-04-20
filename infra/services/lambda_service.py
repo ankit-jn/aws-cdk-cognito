@@ -4,7 +4,6 @@ from aws_cdk import (
     Duration,
 )
 from constructs import Construct
-from typing import Dict, List, Tuple
 from configs.deployment_config import DeploymentConfig
 from infra.services.network_service import NetworkService
 

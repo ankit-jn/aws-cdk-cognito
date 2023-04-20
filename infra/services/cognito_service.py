@@ -2,17 +2,13 @@ from aws_cdk import (
     aws_cognito,
     aws_lambda,
     RemovalPolicy,
-    Duration,
 )
 from constructs import Construct
-from typing import Dict, List, Tuple
+from typing import List, Tuple
 from configs.deployment_config import DeploymentConfig
 from infra.services.lambda_service import LambdaService
 
 class CognitoService(Construct):
-
-    DEFAULT_LAMBDA_TIMEOUT = Duration.seconds(15)
-    DEFAULT_LAMBDA_MEMORY_USAGE = 512
 
     def __init__(self, scope: Construct, configs: DeploymentConfig, lambda_service: LambdaService, **kwargs) -> None:
         super().__init__(scope, f"{configs.deployment_name}-cognito")
