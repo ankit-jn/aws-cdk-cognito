@@ -1,5 +1,5 @@
 {
-  "availability-zones:account=365590098643:region=ap-south-1": [
+  "availability-zones:account=<aws account no>:region=ap-south-1": [
     "ap-south-1a",
     "ap-south-1b",
     "ap-south-1c"
